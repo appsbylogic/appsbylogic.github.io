@@ -1,0 +1,35 @@
+.carousel-caption,h3{
+
+	margin-right: 0;
+width: 50%;
+	
+	
+
+	
+
+	margin-bottom: 10px;
+}
+
+.carousel-caption,p{
+
+
+
+
+
+	float: right;
+}
+
+.carousel-caption{
+
+	border-radius: 25px;
+	right: 0;
+
+	left: auto;
+
+	background: #333333;
+
+	width: 40%;
+
+
+	
+}
