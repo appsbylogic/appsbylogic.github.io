@@ -6,31 +6,15 @@
 
 }
 
+body, html{
 
-.img{
-
-
-	width: 100%;
-
-	height: 100%;
-	
-
+	font-family: 'Nunito', sans-serif;
 }
 
-.img, img{
 
 
-	background: black;
 
-	background-size: 100%;
-
-	width: 100%;
-
-	height: auto;
-
-}
-
-a{
+.carousel-caption a{
 
 	text-decoration: none;
 
@@ -43,5 +27,32 @@ a:hover{
 
 	color: gray;
 
+}
+
+h1{
+
+	text-align: center;
+
+	margin: 10px;
+}
+
+h2{
+
+	font-size: 2vw;
+
+	margin: 10px;
+}
+
+p{
+
+	
+
+	bottom: 0;
+
+	font-size: 1vw;
+
+	margin: 10px;
+
+	float: left;
 }
 

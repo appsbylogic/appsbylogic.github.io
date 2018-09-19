@@ -4,10 +4,6 @@
 width: 50%;
 	
 	
-
-	
-
-	margin-bottom: 10px;
 }
 
 .carousel-caption,p{
@@ -26,10 +22,58 @@ width: 50%;
 
 	left: auto;
 
-	background: #333333;
+
 
 	width: 40%;
 
 
 	
+}
+
+
+
+
+h3{
+
+
+
+	border-radius: 10px;
+
+	background: #333333;
+
+	width: 100%;
+
+	padding-top: 5%;
+
+	padding-bottom: 5%;
+
+	font-size: 2vw;
+}
+
+
+
+
+
+@media(max-width: 900px){
+
+
+		.carousel-caption, h3{
+
+			border-radius: 5px;
+
+			position: absolute;
+
+			margin:0;
+
+			top: 50%;
+
+		}
+		.carousel-indicators{
+
+			display: none;		
+
+		}
+	
+	
+
 }
