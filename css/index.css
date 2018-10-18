@@ -16,6 +16,8 @@ li{
 	margin-bottom: 20px;
 
 	margin-top: 20px;
+
+	font-size: 1vw;
 }
 
 h4{
@@ -55,18 +57,50 @@ h2{
 	margin: 10px;
 }
 
-p{
+@media(max-width: 1024px){
+
+	.info ul {
+
+		padding-left: 50px;
+
+		margin: 0px;
+
+		left: 0;
+	}
+
+	.info li{
+
+		left: 0px;
+
+		font-size: 2vw;
+
+	}
 
 	
-
-	bottom: 0;
-
-	font-size: 1vw;
-
-	margin: 10px;
-
-	float: left;
 }
 
 
+
+
+@media(max-width: 900px){
+
+	.info ul {
+
+		padding-left: 35px;
+
+		margin: 0px;
+
+		left: 0;
+	}
+
+	.info li{
+
+		left: 0px;
+
+		font-size: 3vw;
+
+	}
+
+	
+}
 
