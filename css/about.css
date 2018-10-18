@@ -1,0 +1,144 @@
+html, body{
+
+	background: #f2efef;
+
+	font-family: 'Nunito', sans-serif;
+}
+
+nav{
+
+	background: white;
+
+	border-bottom: 1px solid #dbdbdb;
+
+}
+
+.responsive-nav{
+
+	display: none;
+	border-bottom: solid #dbdbdb 1px;
+
+	margin-bottom: 0px;
+
+}
+
+h2{
+
+	text-align: center;
+}
+
+.imagen{
+
+	display: flex; align-items: center; justify-content: center;
+
+}
+
+.imagen img{
+
+	border-radius: 5px;
+
+	margin-top: 5%; 
+
+	width: 50%;
+
+		height: auto;
+
+		margin-bottom: 30px;
+}
+
+.imagen a{
+	display: flex; align-items: center; justify-content: center;
+}
+
+.content{
+
+	margin: auto;
+
+	background: white;
+
+	width: 60%;
+
+	height: 100%;
+
+	margin-top: 10px;
+
+	border: 1px solid #dbdbdb;
+
+	
+		
+}
+
+.social{
+
+	width: 100%;
+
+	text-align: center;
+
+	align-content: center;
+
+}
+
+.social img{
+
+	width: 20%;
+
+	height: auto;
+
+}
+
+h1{
+
+	text-align: center;
+
+	font-size: 2vw;
+
+}
+h3{
+
+	font-size: 1vw;
+
+	text-align: center;
+}
+
+
+
+h2{
+
+		font-size: 1.3vw;
+	}
+
+
+
+@media(max-width: 1024px){
+
+
+	.content{
+
+		width: 99%;
+	}
+
+	.imagen img{
+
+		width: 50%;
+
+		height: auto;
+
+	}
+
+	h2{
+
+		font-size: 3vw;
+	}
+
+	h1{
+		
+		font-size: 4vw;
+
+	}
+
+	h3{
+
+		font-size: 3vw;
+	}
+
+}
