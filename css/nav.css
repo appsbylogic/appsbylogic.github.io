@@ -43,11 +43,12 @@
 
 .responsive-nav{
 
+	
+
 	display: none;
-
-	margin-bottom: 15px;
-
 	border-bottom: solid #dbdbdb 1px;
+
+	margin-bottom: 0px;
 }
 
 .tabla{

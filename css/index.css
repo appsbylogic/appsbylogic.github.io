@@ -9,23 +9,72 @@
 body, html{
 
 	font-family: 'Nunito', sans-serif;
+
+	background: #f2efef;
+}
+
+nav{
+	background: white;
+
+	border-bottom: 1px solid #dbdbdb;
+}
+
+ul{
+
+	padding-left: 100px;
+
+	padding-right: 100px;
+
+}
+
+h1{
+
+	font-size: 2.5vw;
 }
 
 li{
 
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 
-	margin-top: 20px;
+	margin-top: 30px;
 
 	font-size: 1vw;
+
+	text-align: justify;
 }
 
-h4{
+.link{
 
-	margin: 10px;
+	margin-right: 0;
+
+	margin-left: 95%;
+
+
 }
 
+.link a{
 
+	color: #757575;
+
+}
+
+.content{
+
+	margin: auto;
+
+	background: white;
+
+	width: 60%;
+
+	height: 100%;
+
+	margin-top: 10px;
+
+	border: 1px solid #dbdbdb;
+
+	
+		
+}
 
 
 .carousel-caption a{
@@ -52,27 +101,40 @@ h1{
 
 h2{
 
-	font-size: 2vw;
+	font-size: 1.5vw;
 
-	margin: 10px;
+	text-align: center;
 }
 
 @media(max-width: 1024px){
 
-	.info ul {
+	h1{
+
+		font-size: 6vw;
+	}
+
+	ul {
 
 		padding-left: 50px;
+
+		padding-right: 50px;
 
 		margin: 0px;
 
 		left: 0;
 	}
 
-	.info li{
+	li{
 
 		left: 0px;
 
 		font-size: 2vw;
+
+	}
+
+	.content{
+
+		width: 99%;
 
 	}
 
@@ -84,7 +146,13 @@ h2{
 
 @media(max-width: 900px){
 
-	.info ul {
+	h2{
+
+		font-size: 1vw;
+	}
+
+
+	ul {
 
 		padding-left: 35px;
 
@@ -93,7 +161,7 @@ h2{
 		left: 0;
 	}
 
-	.info li{
+	 li{
 
 		left: 0px;
 
