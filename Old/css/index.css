@@ -1,0 +1,174 @@
+*{
+
+	margin: 0;
+
+	border: 0;
+
+}
+
+body, html{
+
+	font-family: 'Nunito', sans-serif;
+
+	background: #f2efef;
+}
+
+nav{
+	background: white;
+
+	border-bottom: 1px solid #dbdbdb;
+}
+
+ul{
+
+	padding-left: 100px;
+
+	padding-right: 100px;
+
+}
+
+h1{
+
+	font-size: 2.5vw;
+}
+
+li{
+
+	margin-bottom: 30px;
+
+	margin-top: 30px;
+
+	font-size: 1vw;
+
+	text-align: justify;
+}
+
+.link{
+
+	margin-right: 0;
+
+	margin-left: 95%;
+
+
+}
+
+.link a{
+
+	color: #757575;
+
+}
+
+.content{
+
+	margin: auto;
+
+	background: white;
+
+	width: 60%;
+
+	height: 100%;
+
+	margin-top: 10px;
+
+	border: 1px solid #dbdbdb;
+
+	
+		
+}
+
+
+.carousel-caption a{
+
+	text-decoration: none;
+
+	color: white;
+}
+
+a:hover{
+
+	text-decoration: none;
+
+	color: gray;
+
+}
+
+h1{
+
+	text-align: center;
+
+	margin: 10px;
+}
+
+h2{
+
+	font-size: 1.5vw;
+
+	text-align: center;
+}
+
+@media(max-width: 1024px){
+
+	h1{
+
+		font-size: 6vw;
+	}
+
+	ul {
+
+		padding-left: 50px;
+
+		padding-right: 50px;
+
+		margin: 0px;
+
+		left: 0;
+	}
+
+	li{
+
+		left: 0px;
+
+		font-size: 2vw;
+
+	}
+
+	.content{
+
+		width: 99%;
+
+	}
+
+	
+}
+
+
+
+
+@media(max-width: 900px){
+
+	h2{
+
+		font-size: 1vw;
+	}
+
+
+	ul {
+
+		padding-left: 35px;
+
+		margin: 0px;
+
+		left: 0;
+	}
+
+	 li{
+
+		left: 0px;
+
+		font-size: 3vw;
+
+	}
+
+	
+}
+

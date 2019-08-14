@@ -1,174 +1,61 @@
-*{
-
-	margin: 0;
-
-	border: 0;
-
+html body{
+    margin: 0px;
+    padding: 0px;
 }
 
-body, html{
-
-	font-family: 'Nunito', sans-serif;
-
-	background: #f2efef;
+.top{
+    position: relative;
+    width: 100%;
+    background-color: #363636;
 }
 
-nav{
-	background: white;
-
-	border-bottom: 1px solid #dbdbdb;
+@font-face{
+    font-family: "social media";
+    src: url("Smartphone\ Color\ Pro.ttf") format("ttf");
 }
 
-ul{
-
-	padding-left: 100px;
-
-	padding-right: 100px;
-
+.imgMain{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
-h1{
+  .fa-facebook {
+    
+    color: white;
+  }
 
-	font-size: 2.5vw;
+  .fa-instagram {
+    
+    color: white;
+  }
+  
+  .fa-twitter {
+    
+    color: white;
+  }
+
+.mainText{
+    
+    position: relative;
+    margin: 25px;
+    
+    border-radius: 5px;
 }
 
-li{
-
-	margin-bottom: 30px;
-
-	margin-top: 30px;
-
-	font-size: 1vw;
-
-	text-align: justify;
+.rowNav{
+    padding-bottom: 20px;
 }
 
-.link{
-
-	margin-right: 0;
-
-	margin-left: 95%;
-
-
+.mainText:hover{
+    cursor: default;
 }
 
-.link a{
-
-	color: #757575;
-
+hr.style1 {
+    
+    border: 0;
+    height: 1px;
+    background-color: #bdbdbd   ;
 }
 
-.content{
-
-	margin: auto;
-
-	background: white;
-
-	width: 60%;
-
-	height: 100%;
-
-	margin-top: 10px;
-
-	border: 1px solid #dbdbdb;
-
-	
-		
-}
-
-
-.carousel-caption a{
-
-	text-decoration: none;
-
-	color: white;
-}
-
-a:hover{
-
-	text-decoration: none;
-
-	color: gray;
-
-}
-
-h1{
-
-	text-align: center;
-
-	margin: 10px;
-}
-
-h2{
-
-	font-size: 1.5vw;
-
-	text-align: center;
-}
-
-@media(max-width: 1024px){
-
-	h1{
-
-		font-size: 6vw;
-	}
-
-	ul {
-
-		padding-left: 50px;
-
-		padding-right: 50px;
-
-		margin: 0px;
-
-		left: 0;
-	}
-
-	li{
-
-		left: 0px;
-
-		font-size: 2vw;
-
-	}
-
-	.content{
-
-		width: 99%;
-
-	}
-
-	
-}
-
-
-
-
-@media(max-width: 900px){
-
-	h2{
-
-		font-size: 1vw;
-	}
-
-
-	ul {
-
-		padding-left: 35px;
-
-		margin: 0px;
-
-		left: 0;
-	}
-
-	 li{
-
-		left: 0px;
-
-		font-size: 3vw;
-
-	}
-
-	
-}
 
