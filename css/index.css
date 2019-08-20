@@ -20,6 +20,21 @@ html body{
     margin-bottom: 40px;
 }
 
+
+.collapsible{
+  border-radius: 10px;
+}
+.collapsible-header{
+  border-bottom: 1px solid #f1f1f1;
+  border-radius: 10px;
+}
+.imageApp{
+  border-radius: 5px;
+}
+.collapsible-body{
+  border-bottom: 1px solid #f1f1f1;
+  border-radius: 10px;
+}
   .fa-facebook {
     
     color: white;
